@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./imgs/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
