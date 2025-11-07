@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BlockType } from "../types";
+import House from "@/imgs/house.png";
 
 interface BlockProps {
   block: BlockType;
@@ -83,7 +84,7 @@ const Block: React.FC<BlockProps> = ({
         }}
       >
         <img
-          src="/imgs/house.png"
+          src={House}
           alt="house"
           // remove w-full/h-full which can interact with parent sizing
           style={{
